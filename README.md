@@ -41,3 +41,15 @@ Further analysis of confusion matrices to identify model weaknesses and address 
 Experimentation with different hyperparameter values, loss functions, and transfer learning techniques to enhance model performance.
 Introduction of early stopping to prevent overfitting and improve training efficiency.
 Continued refinement of the model's performance to adapt to different data patterns.
+
+# Results:
+
+Each model's performance is evaluated on all three datasets, with varying accuracies observed.
+ResNet 18 generally performs better across datasets, followed by MobileNet V3, while ShuffleNet V2 exhibits lower accuracy, potentially due to its compact architecture.
+Challenges in dataset handling, including noise, artifacts, and distortions, impact model performance, with ResNet 18 demonstrating better adaptability to diverse datasets compared to ShuffleNet V2 and MobileNet V3.
+# Future Improvements:
+
+Further analysis of confusion matrices to identify model weaknesses and address them effectively.
+Experimentation with different hyperparameter values, loss functions, and transfer learning techniques to enhance model performance.
+Introduction of early stopping to prevent overfitting and improve training efficiency.
+Continued refinement of the model's performance to adapt to different data patterns.
