@@ -1,4 +1,4 @@
-# Road-Sign-Detection
+# COMP6721-GROUPA
 # Traffic Sign Detection with CNN Models: README
 
 # Overview:
