@@ -13,7 +13,7 @@ Dataset 1: Contains 3950 images with 10 classes, available in JPG format.
 Dataset 2: Comprises 3106 images with 20 classes, available in PNG format.
 Dataset 3: Includes 877 images with 4 classes, available in PNG format.
 These datasets vary in class counts, image sizes, and formats, posing challenges in training CNN models effectively.
-
+They can be obtained from this link:
 https://www.kaggle.com/datasets/pkdarabi/cardetection?resource=download
 https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data
 https://www.kaggle.com/datasets/ahemateja19bec1025/traffic-sign-dataset-classification
@@ -46,6 +46,10 @@ Experimentation with different hyperparameter values, loss functions, and transf
 Introduction of early stopping to prevent overfitting and improve training efficiency.
 Continued refinement of the model's performance to adapt to different data patterns.
 
+# Requirements and libraries
+
+The code is run on google colab with most of the dependencies installed already. Any other dependencies are mentioned in the cells on Colab and will be imported after running the cells.
+ 
 # Training and Validation on the Sample Dataset
 
 1. The link to the dataset is: https://drive.google.com/file/d/1DipBsUIOtVYGIJvl5QpdeKUBkUl4AsGQ/view?usp=sharing
