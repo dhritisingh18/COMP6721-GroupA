@@ -46,14 +46,22 @@ Experimentation with different hyperparameter values, loss functions, and transf
 Introduction of early stopping to prevent overfitting and improve training efficiency.
 Continued refinement of the model's performance to adapt to different data patterns.
 
-# Results:
+# Training and Validation on the Sample Dataset
 
-Each model's performance is evaluated on all three datasets, with varying accuracies observed.
-ResNet 18 generally performs better across datasets, followed by MobileNet V3, while ShuffleNet V2 exhibits lower accuracy, potentially due to its compact architecture.
-Challenges in dataset handling, including noise, artifacts, and distortions, impact model performance, with ResNet 18 demonstrating better adaptability to diverse datasets compared to ShuffleNet V2 and MobileNet V3.
-# Future Improvements:
-
-Further analysis of confusion matrices to identify model weaknesses and address them effectively.
-Experimentation with different hyperparameter values, loss functions, and transfer learning techniques to enhance model performance.
-Introduction of early stopping to prevent overfitting and improve training efficiency.
-Continued refinement of the model's performance to adapt to different data patterns.
+1. The link to the dataset is: https://drive.google.com/file/d/1DipBsUIOtVYGIJvl5QpdeKUBkUl4AsGQ/view?usp=sharing
+   The sample is taken from https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data and contains 100 images and the corresponding annotations.
+2. The sample is to be used in the codes present in the folder named: Dataset_4_Classes
+3. Upload the zip file to your google drive.
+4. The first file to be run is named 'Dataset_Split.ipynb'. In the cell [2], relpace the path with the path containing the uploaded dataset.
+ ex : !unzip "/path_to_your_dataset" -d "/content/dataset"
+   In cell [5], make sure the path is the path to the folder containing the labels and annotations folder.
+ ex : base_dir = '/path_to_file_containing_labels_and_annotations'
+   Use the same path for cell [10]:
+ ex : !zip -r /content/dataset1.zip /path_to_file_containing_labels_and_annotations
+6. After running the remaining cells, you will get a zip folder downloaded containing the dataset split into train, test and validation datasets
+7. After uploading this dataset to the drive, it can be run on the other three codes.
+8. In the 'Resnet18_Classes_4.ipynb' file, in cell [4], replace the path with the path to the newly uploaded dataset.
+  ex : !unzip "/path_to_the_dataset" -d "/content/dataset"
+9.  In cell [6], make sure the path is the path to the folder containing the train, test and val folders.
+  ex : dataset_root = '/path_to_file_containing_train_test_and_val'
+10. Run the rest of the code, and the graphs for visulaizing will be available after running the last few cells.
