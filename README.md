@@ -14,6 +14,10 @@ Dataset 2: Comprises 3106 images with 20 classes, available in PNG format.
 Dataset 3: Includes 877 images with 4 classes, available in PNG format.
 These datasets vary in class counts, image sizes, and formats, posing challenges in training CNN models effectively.
 
+https://www.kaggle.com/datasets/pkdarabi/cardetection?resource=download
+https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data
+https://www.kaggle.com/datasets/ahemateja19bec1025/traffic-sign-dataset-classification
+
 # CNN Models:
 
 Three CNN architectures are employed in the project:
