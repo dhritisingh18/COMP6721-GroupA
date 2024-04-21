@@ -52,11 +52,12 @@ Continued refinement of the model's performance to adapt to different data patte
    The sample is taken from https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data and contains 100 images and the corresponding annotations.
 2. The sample is to be used in the codes present in the folder named: Dataset_4_Classes
 3. Upload the zip file to your google drive.
-4. The first file to be run is named 'Dataset_Split.ipynb'. In the cell [2], relpace the path with the path containing the uploaded dataset.
+4. The first file to be run is named 'Dataset_Split.ipynb'.
+   4.1 In the cell [2], relpace the path with the path containing the uploaded dataset.
  ex : !unzip "/path_to_your_dataset" -d "/content/dataset"
-   In cell [5], make sure the path is the path to the folder containing the labels and annotations folder.
+   4.2 In cell [5], make sure the path is the path to the folder containing the labels and annotations folder.
  ex : base_dir = '/path_to_file_containing_labels_and_annotations'
-   Use the same path for cell [10]:
+   4.3  Use the same path for cell [10]:
  ex : !zip -r /content/dataset1.zip /path_to_file_containing_labels_and_annotations
 6. After running the remaining cells, you will get a zip folder downloaded containing the dataset split into train, test and validation datasets
 7. After uploading this dataset to the drive, it can be run on the other three codes.
