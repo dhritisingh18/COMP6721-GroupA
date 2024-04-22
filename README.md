@@ -52,7 +52,7 @@ The code is run on google colab with most of the dependencies installed already.
  
 # Training and Validation on the Sample Dataset
 
-1. The link to the dataset is: https://drive.google.com/file/d/1DipBsUIOtVYGIJvl5QpdeKUBkUl4AsGQ/view?usp=sharing
+1. The dataset sample is provided in the zip file named 'Test_Dataset.zip'
 2. The sample is taken from https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data and contains 100 images and the corresponding annotations.
 3. The sample is to be used in the codes present in the folder named: Dataset_4_Classes
 4. Upload the zip file to your google drive.
