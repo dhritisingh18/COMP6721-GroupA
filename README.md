@@ -57,7 +57,7 @@ The code is run on google colab with most of the dependencies installed already.
 2. The sample is to be used in the codes present in the folder named: Dataset_4_Classes
 3. Upload the zip file to your google drive.
 4. The folder to be run the code on is 'Dataset1'.
-5. The first file to be run is named 'Dataset_Split.ipynb'.
+5. The first file to be run is present in folder 'Dataset1/CODE_AI' and named 'Dataset_Split.ipynb'.
 6. In the cell [2], relpace the path with the path containing the uploaded dataset.
  ex : !unzip "/path_to_your_dataset" -d "/content/dataset"
 7. In cell [5], make sure the path is the path to the folder containing the labels and annotations folder.
