@@ -56,17 +56,18 @@ The code is run on google colab with most of the dependencies installed already.
    The sample is taken from https://www.kaggle.com/datasets/andrewmvd/road-sign-detection/data and contains 100 images and the corresponding annotations.
 2. The sample is to be used in the codes present in the folder named: Dataset_4_Classes
 3. Upload the zip file to your google drive.
-4. The first file to be run is named 'Dataset_Split.ipynb'.
-5. In the cell [2], relpace the path with the path containing the uploaded dataset.
+4. The folder to be run the code on is 'Dataset1'.
+5. The first file to be run is named 'Dataset_Split.ipynb'.
+6. In the cell [2], relpace the path with the path containing the uploaded dataset.
  ex : !unzip "/path_to_your_dataset" -d "/content/dataset"
-6. In cell [5], make sure the path is the path to the folder containing the labels and annotations folder.
+7. In cell [5], make sure the path is the path to the folder containing the labels and annotations folder.
  ex : base_dir = '/path_to_file_containing_labels_and_annotations'
-7. Use the same path for cell [10]:
+8. Use the same path for cell [10]:
  ex : !zip -r /content/dataset1.zip /path_to_file_containing_labels_and_annotations
-8. After running the remaining cells, you will get a zip folder downloaded containing the dataset split into train, test and validation datasets
-9. After uploading this dataset to the drive, it can be run on the other three codes.
-10. In the 'Resnet18_Classes_4.ipynb' file, in cell [4], replace the path with the path to the newly uploaded dataset.
+9. After running the remaining cells, you will get a zip folder downloaded containing the dataset split into train, test and validation datasets
+10. After uploading this dataset to the drive, it can be run on the other three codes.
+11. In the 'Resnet18_Classes_4.ipynb' file, in cell [4], replace the path with the path to the newly uploaded dataset.
   ex : !unzip "/path_to_the_dataset" -d "/content/dataset"
-11.  In cell [6], make sure the path is the path to the folder containing the train, test and val folders.
+12.  In cell [6], make sure the path is the path to the folder containing the train, test and val folders.
   ex : dataset_root = '/path_to_file_containing_train_test_and_val'
-12. Run the rest of the code, and the graphs for visulaizing will be available after running the last few cells.
+13. Run the rest of the code, and the graphs for visulaizing will be available after running the last few cells.
